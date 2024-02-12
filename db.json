@@ -1,0 +1,18 @@
+{
+  "minumans": [
+    {
+      "produk": "Rujak buahh",
+      "deskripsi": "Buah segar segar",
+      "harga": "7000",
+      "gambar": "https://tse1.mm.bing.net/th?id=OIP.rO4gnjTCC-FahX3nesslZQHaE8&pid=Api&rs=1&c=1&qlt=95&w=167&h=111",
+      "id": "1"
+    },
+    {
+      "produk": "Nasi Goreng Ayam",
+      "deskripsi": "Nasi nya pakai beras shirataki loh",
+      "harga": "15000",
+      "gambar": "https://tse1.mm.bing.net/th?id=OIP.rO4gnjTCC-FahX3nesslZQHaE8&pid=Api&rs=1&c=1&qlt=95&w=167&h=111",
+      "id": "2"
+    }
+  ]
+}
