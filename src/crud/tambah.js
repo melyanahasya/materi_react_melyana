@@ -24,6 +24,7 @@ function Add() {
       console.log(error);
     }
   };
+  
 
 
   return (
@@ -31,7 +32,7 @@ function Add() {
       <h1>Form Tambah Data</h1>
 
       <Form onSubmit={addData}>
-        <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form.Group className="mb-3" >
           <Form.Label>Nama Produk</Form.Label>
           <Form.Control
             name="produk"
@@ -43,7 +44,7 @@ function Add() {
           />
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicPassword">
+        <Form.Group className="mb-3" >
           <Form.Label>Harga</Form.Label>
           <Form.Control
             type="number"
@@ -54,7 +55,7 @@ function Add() {
             placeholder="Harga"
           />
         </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicPassword">
+        <Form.Group className="mb-3" >
           <Form.Label>Deskripsi</Form.Label>
           <Form.Control
             type="text"
@@ -65,7 +66,7 @@ function Add() {
             placeholder="Deskripsi"
           />
         </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicPassword">
+        <Form.Group className="mb-3" >
           <Form.Label>Harga</Form.Label>
           <Form.Control
             type="text"

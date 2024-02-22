@@ -97,6 +97,7 @@ function Data() {
         </tbody>
       </Table>
     </div>
+    
   );
 }
 

@@ -1,4 +1,24 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "email": "ADMIN",
+      "password": "administrator",
+      "role": "admin"
+    },
+    {
+      "email": "mely@gmail",
+      "password": "123",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "id": "3",
+      "email": "ananda@gmail.com",
+      "password": "12345",
+      "role": "user"
+    }
+  ],
   "minumans": [
     {
       "produk": "Rujak buahh",
@@ -13,6 +33,34 @@
       "harga": "15000",
       "gambar": "https://tse1.mm.bing.net/th?id=OIP.rO4gnjTCC-FahX3nesslZQHaE8&pid=Api&rs=1&c=1&qlt=95&w=167&h=111",
       "id": "2"
+    },
+    {
+      "id": "3",
+      "produk": "Tes",
+      "harga": "20000000",
+      "deskripsi": "Tes",
+      "gambar": "https://tse1.mm.bing.net/th?id=OIP.rO4gnjTCC-FahX3nesslZQHaE8&pid=Api&rs=1&c=1&qlt=95&w=167&h=111"
+    },
+    {
+      "id": "4",
+      "produk": "Tes",
+      "harga": "3000000",
+      "deskripsi": "Tes",
+      "gambar": "https://tse1.mm.bing.net/th?id=OIP.rO4gnjTCC-FahX3nesslZQHaE8&pid=Api&rs=1&c=1&qlt=95&w=167&h=111"
+    },
+    {
+      "id": "5",
+      "produk": "Tes",
+      "harga": "3000000",
+      "deskripsi": "Tes",
+      "gambar": "https://tse1.mm.bing.net/th?id=OIP.rO4gnjTCC-FahX3nesslZQHaE8&pid=Api&rs=1&c=1&qlt=95&w=167&h=111"
+    },
+    {
+      "produk": "Tesh",
+      "deskripsi": "Buah segar segar",
+      "harga": "4000000",
+      "gambar": "https://id.images.search.yahoo.com/search/images;_ylt=Awr1SZF5XMllPUgRWBPLQwx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Nj?p=rujak&type=E211ID1406G0&ei=UTF-8&fr=mcafee&th=111.8&tw=167.7&imgurl=https%3A%2F%2Fcdn.tasteatlas.com%2Fimages%2Fdishes%2Ff775b9bde80b407b8a764d43504e4377.jpg%3Fmw%3D1300&rurl=https%3A%2F%2Fwww.tasteatlas.com%2Frujak&size=227KB&name=Rujak+%7C+Traditional+Fruit+Salad+From+Java%2C+Indonesia&oid=1&h=867&w=1300&turl=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.0z63TDMeYhXD7cxvw5hEYgHaE8%26pid%3DApi%26rs%3D1%26c%3D1%26qlt%3D95%26w%3D167%26h%3D111&tt=Rujak+%7C+Traditional+Fruit+Salad+From+Java%2C+Indonesia&sigr=ovRxYIBZIWLQ&sigit=SOz.hr.4skTr&sigi=p692gOWQg6GE&sign=VNjE0rCNh283&sigt=VNjE0rCNh283",
+      "id": "fae3"
     }
   ]
 }

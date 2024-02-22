@@ -7,6 +7,8 @@ import Add from "./crud/tambah"
 import Edit from "./crud/edit"
 import Catatan from "./pages/catatan"
 import Detail from "./crud/detail"
+import Login from "./auth/login"
+import Register from "./auth/register"
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
      <main>
       <Switch>
       <Route path="/" component={Map} exact/>
+      <Route path="/login" component={Login} exact/>
+      <Route path="/register" component={Register} exact/>
       <Route path="/data_diri" component={Intro} exact/>
       <Route path="/data" component={Data} exact/>
       <Route path="/tambah" component={Add} exact/>
