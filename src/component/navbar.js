@@ -3,16 +3,14 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-// import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
 function navbar() {
-  // const history = useHistory();
+  
+  const logout = () => {
+    localStorage.clear();
+    window.location.href = "/login";
+  };
 
-  // const logout = () => {
-  //   window.location.reload();
-  //   localStorage.clear();
-  //   history.push("/login");
-  // };
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
@@ -33,15 +31,21 @@ function navbar() {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            {/* <button className="nav-item float-right border-0 bg-transparent">
-              <a
-                style={{ color: "red", fontSize: "19px" }}
-                className="btn"
-                onClick={logout}
-              >
-                Logout
-              </a>
-            </button> */}
+
+            <button
+              variant="danger"
+              style={{
+                backgroundColor: "blue",
+                border: "none",
+                color: "white",
+                borderRadius: "5%",
+                width: "5rem",
+              }}
+              className="mx-1"
+              onClick={logout}
+            >
+              Logout
+            </button>
           </Nav>
         </Navbar.Collapse>
       </Container>
